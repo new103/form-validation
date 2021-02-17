@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to left, lightgreen, lightyellow);
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.error {
+  background: rgb(255, 199, 211);
+}
+
+.success {
+  background: rgb(206, 255, 206);
+}
+
+.form-wrapper {
+
+  text-align: center;
+}
+
+form {
+  width: 40vw;
+  margin: 0 auto;
+
+}
+
+input {
+  outline: none;
+}
+
+input[type="text"] {
+  padding: .5rem;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 5rem;
+  margin: 0 auto;
+}
+
+.feedback {
+  font-size: 2rem;
+  font-weight: bold;
+}
